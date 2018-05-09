@@ -44,6 +44,7 @@ int main()
 	int a,b;
     cin>>a>>b;
     modulus(a,b);
+    add();
     subtraction();
     division();
     multiplication();
