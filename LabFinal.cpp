@@ -1,6 +1,5 @@
 #include<bits/std.c++>
 using namespace std;
-
 void subtraction()
 {
     double Num1,Num2,result;
@@ -9,8 +8,15 @@ void subtraction()
     result=Num1-num2;
     cout<<"This is output: "<<result<<endl;
 }
-
+int modulus(int a,int b)
+{
+    a=a%b;
+}
 int main()
 {
-	subtraction();
+	int a,b;
+    cin>>a>>b;
+    modulus(a,b);
+  subtraction();
+    return 0;
 }
