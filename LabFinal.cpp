@@ -1,8 +1,16 @@
 #include<bits/stdc++.h>
 using namespace std;
+void add();
 void division();
 void subtraction();
 int modulus(int divisisible,int divisior);
+void add()
+{   
+    int a,b;
+     cin>>a>>b;
+	 cout<<"The Sum of "<<a <<"  & "<<b<<" is "<<a+b<<endl;
+	
+}
 void multiplication()
 {
     double veri1,veri2;
