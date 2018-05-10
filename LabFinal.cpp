@@ -3,6 +3,13 @@ using namespace std;
 void division();
 void subtraction();
 int modulus(int divisisible,int divisior);
+void multiplication()
+{
+    double veri1,veri2;
+    cout<<endl<<"Enter Two veriable for Multiplication:";
+    cin>>veri1>>veri2;
+    cout<<endl<<"Multiplication of "<<veri1<<" and "<<veri2<<" is = "<<veri1*veri2;
+}
 void division()
 {
     double number_1,number_2,result;
@@ -30,5 +37,7 @@ int main()
     cin>>a>>b;
     modulus(a,b);
     subtraction();
+    division();
+    multiplication();
 return 0;
 }
