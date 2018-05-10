@@ -8,15 +8,16 @@ void subtraction()
     result=Num1-num2;
     cout<<"This is output: "<<result<<endl;
 }
-int modulus(int a,int b)
+int modulus(int divisisible,int divisior)
 {
-    a=a%b;
+     divisisible= divisisible%divisior;
+     return divisisible;
 }
 int main()
 {
 	int a,b;
     cin>>a>>b;
     modulus(a,b);
-  subtraction();
-    return 0;
+    subtraction();
+return 0;
 }
