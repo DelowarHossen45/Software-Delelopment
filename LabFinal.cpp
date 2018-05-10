@@ -3,12 +3,13 @@ using namespace std;
 void add();
 void division();
 void subtraction();
-int modulus(int divisisible,int divisior);
+int modulu(int divisisible,int divisior);
 void add()
 {   
-    int a,b;
-     cin>>a>>b;
-	 cout<<"The Sum of "<<a <<"  & "<<b<<" is "<<a+b<<endl;
+    int Num1,Num2,result;
+    cout<<"Enter two value for add:";
+    cin>>Num1>>Num2;
+    cout<<"The Sum of "<<Num1 <<"  & "<<Num2<<" is "<<Num1+Num2<<endl;
 	
 }
 void multiplication()
@@ -31,19 +32,23 @@ void subtraction()
     double Num1,Num2,result;
     cout<<"Enter two number for subtraction: ";
     cin>>Num1>>Num2;
-    result=Num1-num2;
+    result=Num1-Num2;
     cout<<"This is output: "<<result<<endl;
 }
-int modulus(int divisisible,int divisior)
+
+void modulu()
 {
-     divisisible= divisisible%divisior;
-     return divisisible;
+    int divisisible,divisior;
+    cout<<"Enter two value for modulus: ";
+    cin>>divisisible>>divisior;
+    divisisible= divisisible%divisior;
+    cout<<"This is output:"<<divisisible<<endl;
+ 
 }
 int main()
 {
-	int a,b;
-    cin>>a>>b;
-    modulus(a,b);
+   
+    modulu();
     add();
     subtraction();
     division();
