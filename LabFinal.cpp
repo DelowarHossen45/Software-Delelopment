@@ -9,6 +9,7 @@ void subtraction()
     result=Num1-num2;
     cout<<"This is output: "<<result<<endl;
 }
+
 int main()
 {
 	subtraction();
